@@ -1,0 +1,34 @@
+git init
+
+git remote add origin https://github.com/Max-Osorio/EvidenciaGit-MaximilianSerranoOsorio.git
+
+git add .
+
+git commit -m "Nuevo Commit"
+
+git push origin master
+
+-------------------------------------------------
+
+git branch Nueva_Rama
+
+git checkout Nueva_Rama
+
+git push origin Nueva_Rama
+
+git add .
+
+git commit -m "Nuevo Commit Nueva_Rama"
+
+git push origin Nueva_Rama
+
+------------------------------------------------
+
+git checkout master
+
+git merge origin/Nueva_Rama
+
+git add .
+
+git push origin master
+
